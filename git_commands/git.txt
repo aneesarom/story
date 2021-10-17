@@ -1,0 +1,15 @@
+git init----to initialize git---
+git add "file name" or git add . ----to add staging area----
+git commit -m "message of the commit" ---to commit the file in git----
+git status ---to know status of staging of the file"---
+git log ---to see the ommit time stamp---
+
+git diff "file name"---to know the difference of commit file in git and local updated file--
+git checkout "file name" --to rollout the file to previous version of file in git----
+
+git remote add origin https://github.com/aneesarom/story.git----to add in remote git----
+git push -u origin master----to add in remote git----
+
+touch .gitignore---to igonre files(add file name in this, that wont be added in remote git)---
+
+git clone "link"---link you need to get from github to clone in local---
